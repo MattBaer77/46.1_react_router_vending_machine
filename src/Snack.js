@@ -9,7 +9,7 @@ const Snack = ( {snack} ) => {
         <div className="Snack">
             <h2>{snack.name}</h2>
             <div><NavLink exact to="/">Go Home!</NavLink></div>
-            <img src={snack.image}></img>
+            <img alt={'An image of ' + snack.name} src={snack.image}></img>
         </div>
     )
 
